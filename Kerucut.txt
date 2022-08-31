@@ -1,0 +1,21 @@
+#################################################################
+Menghitung volume kerucut
+
+Algoritma :
+
+1. Deklarasikan variabel : volume,r,d,t dan pi
+2. input nilai untuk menghitung volume kerucut , diameter(d) =3, tinggi(t) =4, jari-jari(r) = dan pi =3.14159
+3. hitung r, r= diamter/2---> r=d/2--->r=5/2=2.5
+4. melakukan perhitungan untuk menghitung volume, volume= pi*r*r*t/3
+5. menampilkan hasil volume
+
+pseudocode:
+
+1.deklarasi float volume,d,t,r 
+            const float pi: 3.14159
+2. input d=5, t=4
+3. r = d/2
+3. v=pi*r*r*t/3
+4. write(volume)
+
+###################################################################
