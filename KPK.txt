@@ -14,7 +14,6 @@ pseudocode :
 x     : integer
 y     : integer
 hasil : integer
-Deskripsi:
 read x
 read y
 hasil=0
