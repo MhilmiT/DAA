@@ -62,9 +62,9 @@ algortima:
  1. masukan nilai X ke dalam buffer (tampungan)
  2. kondisi X kosong
  3. masukan nilai Y ke dalam X
- 3. kondisi Y kosong
- 4. Masukan nilai dalam buffer ke dalam Y
- 5. kondisi buffer kosong, dan nilai tertukar
+ 4. kondisi Y kosong
+ 5. Masukan nilai dalam buffer ke dalam Y
+ 6. kondisi buffer kosong, dan nilai tertukar
  
 pseudcode
 1. buffer=x
@@ -187,6 +187,6 @@ pseudocode:
             const float pi: 3.14159
 2. input d=5, t=4
 3. r = d/2
-3. v=pi*r*r*t/3
+4. v=pi*r*r*t/3
    volume= 3.14159*2.5*2.5*5/3
-4. write(volume)
+5. write(volume)
