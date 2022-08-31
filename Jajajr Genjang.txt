@@ -12,11 +12,11 @@ algoritma:
 4.menampilkan hasil dari luas jajar genjang.
 
 psycode:
-deklarasi
-var luas, panjang as lebar, tinggi
-panjang ←5
-tinggi←3
-luas = alas*tinggi 
-write(luas)
+1. deklarasi
+2. var luas, panjang as lebar, tinggi
+3. panjang ←5
+4. tinggi←3
+5. luas = alas*tinggi 
+6. write(luas)
 
 ########################################################
