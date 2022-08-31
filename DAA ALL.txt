@@ -19,26 +19,17 @@ cari nilai kpk dari 3 dan 4
 
 algoritma:
 
-step 1. jika n = 0, return nilai y
-step 2. masukan x ke variabel penampung(a). masukan y ke variabel penampung (b)
-step 3. jika nilai x tidak lebih dari nilai y, tambah dengan x
-step 4. jika nilai x lebih dari nilai x, tambah dengan y
-step 5. jika h
+Step 1 Jika n = 0, return m sebagai hasil dan stop. Jika tidak, lanjut ke Step 2.
+Step 2 Bagi nilai m dengan n, masukan sisanya ke j.
+Step 3 Masukan nilai n ke m dan nilai j ke n, kali nilai m dengan n lalu bagi dengan j. Kembali ke step 1.
 
-pseudocode :
-x     : integer
-y     : integer
-hasil : integer
-Deskripsi:
-read x
-read y
-hasil=0
-for (int i=1;i<=y;i++)
-hasil=hasil+x
-if (hasil mod y = 0)
-write hasil
-return
-end
+Pseudocode:
+
+While n != 0 do
+j = m mod n
+m = n
+n = j
+z = (n * m / j)
  
 ########################################################################
 
