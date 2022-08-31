@@ -19,17 +19,17 @@ cari nilai kpk dari 3 dan 4
 
 algoritma:
 
-Step 1 Jika n = 0, return m sebagai hasil dan stop. Jika tidak, lanjut ke Step 2.
-Step 2 Bagi nilai m dengan n, masukan sisanya ke j.
-Step 3 Masukan nilai n ke m dan nilai j ke n, kali nilai m dengan n lalu bagi dengan j. Kembali ke step 1.
+1. Jika n = 0, return m sebagai hasil dan stop. Jika tidak, lanjut ke Step 2.
+2. Bagi nilai m dengan n, masukan sisanya ke j.
+3. Masukan nilai n ke m dan nilai j ke n, kali nilai m dengan n lalu bagi dengan j. Kembali ke step 1.
 
 Pseudocode:
 
-While n != 0 do
-j = m mod n
-m = n
-n = j
-z = (n * m / j)
+1. While n != 0 do
+2. j= m mod n
+3. m = n
+4. n = j
+5. = (n * m / j)
  
 ########################################################################
 
