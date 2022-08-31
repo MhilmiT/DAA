@@ -45,22 +45,18 @@ algoritma:
 4.menampilkan hasil dari luas jajar genjang.
 
 psycode:
-deklarasi
-var luas, panjang as lebar, tinggi
-panjang ←5
-tinggi←3
-luas = alas*tinggi 
-write(luas)
+1. deklarasi
+2. var luas, panjang as lebar, tinggi
+3. panjang ←5
+4. tinggi←3
+5. luas = alas*tinggi 
+6. write(luas)
 
 ########################################################
 FUNGSI SWAP
 
 X=4
 Y=5
-
-buffer=x
-x=y
-y=buffer
 
 algortima:
  1. masukan nilai X ke dalam buffer (tampungan)
@@ -69,6 +65,11 @@ algortima:
  3. kondisi Y kosong
  4. Masukan nilai dalam buffer ke dalam Y
  5. kondisi buffer kosong, dan nilai tertukar
+ 
+pseudcode
+1. buffer=x
+2. x=y
+3. y=buffer
 
  proses:
  
@@ -90,15 +91,8 @@ b=4          |  0   |
 
 #######################################################
 menukar buah
-
-definisikan :
-a=(piring 1)
-b=(piring 2)
-c=(piring kosong)
-
-c=a
-a=b
-b=c
+ 
+algoritma:
 
 1. masukan a ke dalam c (c=a)
 2. kondisi a null
@@ -106,6 +100,17 @@ b=c
 4. kondisi b null
 5. masukan c kedalam b (b=c)
 6. kondisi C kosong dan nilai tertukar (a=b)
+
+pseudcode
+ 
+definisikan :
+a=(piring 1)
+b=(piring 2)
+c=(piring kosong)
+
+1. c=a
+2. a=b
+3. b=c
 
 ###############################################################
 Luas alas segitiga
@@ -117,12 +122,12 @@ Step 3 Menghitung luas = ½*alas*tinggi
 Step 4 Menampilkan luas
 
 Pseudocode:
-deklarasi
-var luas, alas, tinggi
-alas ← 25
-tinggi ←30
-luas = ½*alas*tinggi
-write(luas)
+1. deklarasi
+2. var luas, alas, tinggi
+3. alas ← 25
+4. tinggi ←30
+5. luas = ½*alas*tinggi
+6. write(luas)
 
 
 ################################################################
@@ -137,13 +142,13 @@ algoritma:
    luas= alas x tinggi / luas= panjang(alas) x tinggi
 4.menampilkan hasil dari luas jajar genjang.
 
-psycode:
-deklarasi
-var luas, panjang as lebar, tinggi
-panjang ←5
-tinggi←3
-luas = alas*tinggi 
-write(luas)
+pseudocode:
+1. deklarasi
+2. var luas, panjang as lebar, tinggi
+3. panjang ←5
+4. tinggi←3
+5. luas = alas*tinggi 
+6. write(luas)
 
 ##################################################################################
 
