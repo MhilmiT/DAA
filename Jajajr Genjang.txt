@@ -8,10 +8,10 @@ algoritma:
 2. masukan nilai panjang dan tinggi 
    (panjang=5, tinggi=3)
 3. menghitung luas jajar genjang	
-   luas= alas x tinggi / luas= panjang(alas) x tinggi
+   luas= panjang(alas) x tinggi
 4.menampilkan hasil dari luas jajar genjang.
 
-psycode:
+pseudocode:
 1. deklarasi
 2. var luas, panjang as lebar, tinggi
 3. panjang ←5
