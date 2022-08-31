@@ -1,0 +1,38 @@
+########################################################################
+
+FUNGSI SWAP
+
+X=4
+Y=5
+
+buffer=x
+x=y
+y=buffer
+
+algortima:
+ 1. masukan nilai X ke dalam buffer (tampungan)
+ 2. kondisi X kosong
+ 3. masukan nilai Y ke dalam X
+ 3. kondisi Y kosong
+ 4. Masukan nilai dalam buffer ke dalam Y
+ 5. kondisi buffer kosong, dan nilai tertukar
+
+ proses:
+ 
+pertama,
+ a=4         |BUFFER|
+ b=5         |  0   |
+
+kedua,       
+ a=0         |BUFFER| 
+ b=5         |  4   |
+
+ketiga,
+a=5          |BUFFER|
+b=0          |  4   |
+
+keempat,
+a=5          |BUFFER|
+b=4          |  0   |
+
+

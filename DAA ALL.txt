@@ -1,0 +1,196 @@
+Muhammad Hilmi Taufiqulhakim
+
+Mencari Nilai FPB
+
+step 1. Step 1 Jika n = 0, return nilai m sebagai hasil dan stop. Jika tidak, kembali ke Step 2.
+Step 2. Bagi nilai m dengan n, masukan nilai sisanya ke r.
+Step 3. Masukan nilai n ke m dan nilai r ke n. Kembali ke Step 1.
+
+Pseudocode:
+While n ≠ 0 do
+  r ← m mod n
+  m ← n
+  n ← r
+return m
+
+##########################################################################
+
+cari nilai kpk dari 3 dan 4
+
+algoritma:
+
+step 1. jika n = 0, return nilai y
+step 2. masukan x ke variabel penampung(a). masukan y ke variabel penampung (b)
+step 3. jika nilai x tidak lebih dari nilai y, tambah dengan x
+step 4. jika nilai x lebih dari nilai x, tambah dengan y
+step 5. jika h
+
+pseudocode :
+x     : integer
+y     : integer
+hasil : integer
+Deskripsi:
+read x
+read y
+hasil=0
+for (int i=1;i<=y;i++)
+hasil=hasil+x
+if (hasil mod y = 0)
+write hasil
+return
+end
+ 
+########################################################################
+
+Tentukan luas dari jajar genjang
+panjang=5, lebar=3
+
+algoritma:
+1. deklarasikan panjang dan tinggi (panjang = alas)
+2. masukan nilai panjang dan tinggi 
+   (panjang=5, tinggi=3)
+3. menghitung luas jajar genjang	
+   luas= alas x tinggi / luas= panjang(alas) x tinggi
+4.menampilkan hasil dari luas jajar genjang.
+
+psycode:
+deklarasi
+var luas, panjang as lebar, tinggi
+panjang ←5
+tinggi←3
+luas = alas*tinggi 
+write(luas)
+
+########################################################
+FUNGSI SWAP
+
+X=4
+Y=5
+
+buffer=x
+x=y
+y=buffer
+
+algortima:
+ 1. masukan nilai X ke dalam buffer (tampungan)
+ 2. kondisi X kosong
+ 3. masukan nilai Y ke dalam X
+ 3. kondisi Y kosong
+ 4. Masukan nilai dalam buffer ke dalam Y
+ 5. kondisi buffer kosong, dan nilai tertukar
+
+ proses:
+ 
+pertama,
+ a=4         |BUFFER|
+ b=5         |  0   |
+
+kedua,       
+ a=0         |BUFFER| 
+ b=5         |  4   |
+
+ketiga,
+a=5          |BUFFER|
+b=0          |  4   |
+
+keempat,
+a=5          |BUFFER|
+b=4          |  0   |
+
+#######################################################
+menukar buah
+
+definisikan :
+a=(piring 1)
+b=(piring 2)
+c=(piring kosong)
+
+c=a
+a=b
+b=c
+
+1. masukan a ke dalam c (c=a)
+2. kondisi a null
+3. masukan b ke dalam a (a=b)
+4. kondisi b null
+5. masukan c kedalam b (b=c)
+6. kondisi C kosong dan nilai tertukar (a=b)
+
+###############################################################
+Luas alas segitiga
+
+Algoritma:
+Step 1 Mendeklarasikan luas, alas, dan tinggi
+Step 2 Masukan alas = 25, tinggi = 30
+Step 3 Menghitung luas = ½*alas*tinggi
+Step 4 Menampilkan luas
+
+Pseudocode:
+deklarasi
+var luas, alas, tinggi
+alas ← 25
+tinggi ←30
+luas = ½*alas*tinggi
+write(luas)
+
+
+################################################################
+Tentukan luas dari jajar genjang
+panjang=5, lebar=3
+
+algoritma:
+1. deklarasikan panjang dan tinggi (panjang = alas)
+2. masukan nilai panjang dan tinggi 
+   (panjang=5, tinggi=3)
+3. menghitung luas jajar genjang	
+   luas= alas x tinggi / luas= panjang(alas) x tinggi
+4.menampilkan hasil dari luas jajar genjang.
+
+psycode:
+deklarasi
+var luas, panjang as lebar, tinggi
+panjang ←5
+tinggi←3
+luas = alas*tinggi 
+write(luas)
+
+##################################################################################
+
+MENGHITUNG VOLUME TABUNG :
+
+ Algoritma:
+
+1. Deklarasikan variabel : v,r,t dan pi
+2. input nilai untuk menghitung volume, jari-jari(r) =3, tinggi(t) =5, dan pi =3.14159
+3. melakukan perhitungan untuk menghitung volume, volume= pi*r*r*t
+4. menampilkan volume
+
+pseudocode:
+
+1.deklarasi float v,r,t
+          const float pi: 3.14159
+2. input r=3, t=5
+3. v=pi*r*r*t
+   volume= 3.14159*3*3*5
+4. write(volume)
+
+#################################################################
+Menghitung volume kerucut
+
+Algoritma :
+
+1. Deklarasikan variabel : volume,r,d,t dan pi
+2. input nilai untuk menghitung volume kerucut , diameter(d) =3, tinggi(t) =4, jari-jari(r) = dan pi =3.14159
+3. hitung r, r= diamter/2---> r=d/2--->r=5/2=2.5
+4. melakukan perhitungan untuk menghitung volume, volume= pi*r*r*t/3
+5. menampilkan hasil volume
+
+pseudocode:
+
+1.deklarasi float volume,d,t,r 
+            const float pi: 3.14159
+2. input d=5, t=4
+3. r = d/2
+3. v=pi*r*r*t/3
+   volume= 3.14159*2.5*2.5*5/3
+4. write(volume)

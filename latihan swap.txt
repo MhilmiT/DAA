@@ -1,0 +1,20 @@
+#######################################################
+menukar buah (LATIHAN)
+
+definisikan :
+a=(piring 1)
+b=(piring 2)
+c=(piring kosong)
+
+c=a
+a=b
+b=c
+
+1. masukan a ke dalam c (c=a)
+2. kondisi a null
+3. masukan b ke dalam a (a=b)
+4. kondisi b null
+5. masukan c kedalam b (b=c)
+6. kondisi C kosong dan nilai tertukar (a=b)
+
+####################################################

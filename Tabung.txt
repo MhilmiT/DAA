@@ -1,0 +1,20 @@
+################################################################
+MENGHITUNG VOLUME TABUNG :
+
+ Algoritma:
+
+1. Deklarasikan variabel : v,r,t dan pi
+2. input nilai untuk menghitung volume, jari-jari(r) =3, tinggi(t) =5, dan pi =3.14159
+3. melakukan perhitungan untuk menghitung volume, volume= pi*r*r*t
+4. menampilkan volume
+
+pseudocode:
+
+1.deklarasi float v,r,t
+          const float pi: 3.14159
+2. input r=3, t=5
+3. v=pi*r*r*t
+   volume= 3.14159*3*3*5
+4. write(volume)
+
+#################################################################
