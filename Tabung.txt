@@ -10,10 +10,11 @@ MENGHITUNG VOLUME TABUNG :
 
 pseudocode:
 
-1.deklarasi float v,r,t
-          const float pi: 3.14159
-2. input r=3, t=5, pi=3.14159
-3. v=pi*r*r*t
-4. write(volume)
+1. declare int (r, t)
+2. declare float 3.14
+3. r = 3
+4. t = 5
+5. v = 3.14 * (3 * 3) * 5
+write(volume)
 
 #################################################################
