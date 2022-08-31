@@ -20,4 +20,24 @@ c=a
 a=b
 b=c
 
+proses:
+ 
+pertama,
+ a=p1         |BUFFER|
+ b=p2        |  0   |
+
+kedua,       
+ a=0         |BUFFER| 
+ b=p2         |  p1  |
+
+ketiga,
+a=p2         |BUFFER|
+b=0          |  p1   |
+
+keempat,
+a=p2         |BUFFER|
+b=p1         |  0   |
+
+
+
 ####################################################
