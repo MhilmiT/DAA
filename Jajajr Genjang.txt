@@ -1,0 +1,22 @@
+########################################################################
+
+Tentukan luas dari jajar genjang
+panjang=5, lebar=3
+
+algoritma:
+1. deklarasikan panjang dan tinggi (panjang = alas)
+2. masukan nilai panjang dan tinggi 
+   (panjang=5, tinggi=3)
+3. menghitung luas jajar genjang	
+   luas= alas x tinggi / luas= panjang(alas) x tinggi
+4.menampilkan hasil dari luas jajar genjang.
+
+psycode:
+deklarasi
+var luas, panjang as lebar, tinggi
+panjang ←5
+tinggi←3
+luas = alas*tinggi 
+write(luas)
+
+########################################################
