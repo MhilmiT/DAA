@@ -12,9 +12,8 @@ pseudocode:
 
 1.deklarasi float v,r,t
           const float pi: 3.14159
-2. input r=3, t=5
+2. input r=3, t=5, pi=3.14159
 3. v=pi*r*r*t
-   volume= 3.14159*3*3*5
 4. write(volume)
 
 #################################################################
